@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+ }
+ 
+ body {
+ 
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     background-color: rgb(231, 238, 231);
+ }
+ 
+ .header {
+     position: fixed;
+     width: 100%;
+     height:100px ;
+     background-color:white;
+     color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    
+ 
+ }
+ 
+ .header .ust {
+     font-size: 19px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+     margin-bottom: 20px;
+ }       
+ 
+ .header .alt {
+ 
+     text-align: center;
+ }
+ 
+ .header .ust a {
+  
+     text-decoration:none ;
+     color: black;
+ 
+ }
+ 
+ .fa-solid {
+ 
+     margin-left: 10px;
+     
+ }
+
+ .middle a {
+
+    text-decoration: none;
+    color: black;
+ }
+
+ .middle .ay1 , .ay2 , .ay3 , .ay4 , .ay5 , .ay6 , .ay7 , .ay8 , .ay9 , .ay10 , .ay11 , .ay12 {
+
+background-color: white;
+width: 400px    ;
+height: 90px;
+border-radius: 20px;
+display: flex; 
+justify-content: center;
+align-items: center;
+font-size: 25px;
+margin-bottom: 35px;
+border: 2px solid black;
+
+ }
+
+
+ .middle {
+    width: 100%;
+    height: 2200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+ }
+
+ a:hover {
+
+   color: darkred;
+ }
+
+.questions {
+
+width: 100%;
+background-color: white;
+margin-top: 60px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+height: 300px;
+margin-bottom: -295px;
+}
+ .questions .merak p{
+
+    font-size: 30px;
+
+ }
+
+.questions .soru1 {
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+} 
+
+.questions .soru1 p:nth-child(1){
+  
+    font-size: 22px;
+
+}
+
+.questions .soru1 p:nth-child(2) {
+
+font-size: 22px;
+color:  brown;
+}
+
+.questions .soru2 {
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+} 
+
+.questions .soru2 p:nth-child(1){
+  
+    font-size: 22px;
+
+}
+
+.questions .soru2 p:nth-child(2) {
+
+font-size: 22px;
+color:  brown;
+}
