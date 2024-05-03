@@ -79,9 +79,10 @@
  }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
  .img{
-    width: 350px;
+    width: 30rem;
+     height: 30rem;
      
  }
 }
