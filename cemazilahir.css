@@ -70,19 +70,34 @@
  background-color: white;
  border-radius: 30px;
  height: 150px;
+ padding: 0 5px;
  font-size: 23px;
  display: flex;
  justify-content: center;
  text-align: center;
  border: 2px solid black;
+ margin-bottom: 4rem;
  
  }
 
+ .img img{
+    margin: 8rem 0 3rem 0;
+    object-fit: cover;
+    height: 47rem;
+ }
 
 @media only screen and (max-width: 600px) {
- .img{
+ .img img{
     width: 20rem;
-     height: 20rem;
-     
+ }
+
+ .img p{
+    margin-bottom: 2rem;
+    width: 20rem;
+    height: 16rem;
+ }
+
+ video{
+    width: 25rem;
  }
 }
