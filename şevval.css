@@ -84,10 +84,14 @@
     width: 20rem;
  }
 
+ .img{
+    margin-top: 7rem;
+ }
+    
  .img p{
     margin: 2rem 0;
     width: 20rem;
-    height: 30rem;
+    height: 40rem;
  }
 
  video{
